@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: burlywood;
+}
+body{
+    background-image: url(daniele-franchi-dt0yhDQmJ4k-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    background-color: wheat;
+    color: black;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2.5rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(14, 14, 53, 0.1);
+    font-size: 8vmin;
+    color: rgb(235, 14, 43);
+    background-color: rgb(74, 73, 130);
+}
+.reset-btn{
+    padding:1rem ;
+    font-size: 1.25rem;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reset-btn:hover{
+background-color: aquamarine;
+    color: black;
+    border: 0.7rem solid black;
+    border-radius: 4rem;
+}
+.new-btn{
+    padding:1rem ;
+    font-size: 1.25rem;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.new-btn:hover{
+    background-color: aquamarine;
+    color: black;
+    border: 0.7rem solid black;
+    border-radius: 4rem;
+}
+#msg{
+    color: black;
+    font-size: 12vmin;
+    font-family: cursive;
+    font-weight: 700;
+}
+.msg-container{
+    height: 60vmin;
+    
+}
+.hide{
+    display: none;
+}
